@@ -7,6 +7,8 @@ TagManager:
   - Barreiras
   - Ghosts
   - Bolas
+  - Glitter
+  - Pingo
   layers:
   - Default
   - TransparentFX

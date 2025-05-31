@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using NUnit.Framework.Constraints;
+using System.Collections;
 
 using UnityEngine.Video;
 
@@ -10,10 +12,11 @@ public class Player : MonoBehaviour
     public TextMeshProUGUI TextoPontos;
     public TextMeshProUGUI TextoVidas;
     public int Pontos = 0;
+    
 
     void Start()
     {
-        //Fazer o gameover
+       
         
 
     }
@@ -39,21 +42,73 @@ public class Player : MonoBehaviour
         {
             transform.Translate(0, 0, -0.1f);
         }
-          
+
+   
+
+
     }
 
-    void OnTriggerEnter(Collider comer)
+    void OnTriggerEnter(Collider toque)
     {
-        if (comer.gameObject.tag == "Bolas")
+        if (toque.gameObject.tag == "Bolas")
         {
             Pontos += 10; ;
-            Destroy(comer.gameObject);
+            Destroy(toque.gameObject);
             atualizarPontos();
         }
 
+        if (toque.gameObject.tag == "Glitter")
+        {
+            Camera.main.transform.Rotate(0,0,180);
+            float sorteioTempo = Random.Range(5, 8);
+            StartCoroutine(Fim(sorteioTempo));
+            Destroy(toque.gameObject);
+        }
+
+        if (toque.gameObject.tag == "Pingo")
+        {
+            Camera.main.fieldOfView = 50;
+            toque.gameObject.SetActive(false);
+            float sorteioTempo = Random.Range(5, 8);
+            StartCoroutine (Fim2(sorteioTempo));
+        }
+        
+        if (toque.gameObject.tag =="Ghosts")
+        {
+            morrer();
+        }
+
     }
+
     void atualizarPontos()
     {
         TextoPontos.SetText("Pontos: " + Pontos);
+        if (Pontos == 710)
+        {
+            SceneManager.LoadScene("Menu");
+        }
+
     }
+
+    IEnumerator Fim(float tempo)
+    {
+        yield return new WaitForSeconds(tempo);
+        Camera.main.transform.Rotate(0, 0, 180);
+    }
+
+    IEnumerator Fim2(float tempo)
+    {
+        yield return new WaitForSeconds(tempo);
+        Camera.main.fieldOfView = 60;
+
+    }
+
+    void morrer()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+   
 }
+
+
+

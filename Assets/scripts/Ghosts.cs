@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 public class Ghosts : MonoBehaviour
 {
-    float velocidade = 0.5f;
+    float velocidade = 1.5f;
     public Transform PacDiva;
     
 
