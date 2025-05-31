@@ -131,12 +131,12 @@ GameObject:
   - component: {fileID: 9978556}
   - component: {fileID: 9978555}
   - component: {fileID: 9978554}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (19)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &9978553
 Transform:
@@ -236,12 +236,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 30846365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreirinhas3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &30846365
 Transform:
@@ -271,12 +271,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 46483446}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreirinhas3 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &46483446
 Transform:
@@ -307,12 +307,12 @@ GameObject:
   - component: {fileID: 50606172}
   - component: {fileID: 50606171}
   - component: {fileID: 50606170}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (19)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &50606169
 Transform:
@@ -415,12 +415,12 @@ GameObject:
   - component: {fileID: 61838070}
   - component: {fileID: 61838069}
   - component: {fileID: 61838068}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (2)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &61838067
 Transform:
@@ -619,85 +619,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 79572325}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &95498732
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 95498735}
-  - component: {fileID: 95498734}
-  - component: {fileID: 95498733}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &95498733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 95498732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_MoveRepeatDelay: 0.5
-  m_MoveRepeatRate: 0.1
-  m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
-  m_DeselectOnBackgroundClick: 1
-  m_PointerBehavior: 0
-  m_CursorLockBehavior: 0
-  m_ScrollDeltaPerTick: 6
---- !u!114 &95498734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 95498732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &95498735
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 95498732}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &101020938
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,12 +952,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 112427790}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreiriinhas2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &112427790
 Transform:
@@ -1067,12 +988,12 @@ GameObject:
   - component: {fileID: 131931345}
   - component: {fileID: 131931344}
   - component: {fileID: 131931343}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (25)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &131931342
 Transform:
@@ -1283,12 +1204,12 @@ GameObject:
   - component: {fileID: 193861236}
   - component: {fileID: 193861235}
   - component: {fileID: 193861234}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (8)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &193861233
 Transform:
@@ -1499,12 +1420,12 @@ GameObject:
   - component: {fileID: 198110961}
   - component: {fileID: 198110960}
   - component: {fileID: 198110959}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (22)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &198110958
 Transform:
@@ -1607,12 +1528,12 @@ GameObject:
   - component: {fileID: 198290603}
   - component: {fileID: 198290602}
   - component: {fileID: 198290601}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (27)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &198290600
 Transform:
@@ -1715,12 +1636,12 @@ GameObject:
   - component: {fileID: 199848547}
   - component: {fileID: 199848546}
   - component: {fileID: 199848545}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (28)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &199848544
 Transform:
@@ -2255,12 +2176,12 @@ GameObject:
   - component: {fileID: 287025764}
   - component: {fileID: 287025763}
   - component: {fileID: 287025762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (28)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &287025761
 Transform:
@@ -2363,12 +2284,12 @@ GameObject:
   - component: {fileID: 287471006}
   - component: {fileID: 287471005}
   - component: {fileID: 287471004}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (1)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &287471003
 Transform:
@@ -2471,12 +2392,12 @@ GameObject:
   - component: {fileID: 305688504}
   - component: {fileID: 305688503}
   - component: {fileID: 305688502}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (31)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &305688501
 Transform:
@@ -2579,12 +2500,12 @@ GameObject:
   - component: {fileID: 308151970}
   - component: {fileID: 308151969}
   - component: {fileID: 308151968}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (20)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &308151967
 Transform:
@@ -2687,12 +2608,12 @@ GameObject:
   - component: {fileID: 309079480}
   - component: {fileID: 309079479}
   - component: {fileID: 309079478}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (20)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &309079477
 Transform:
@@ -2932,12 +2853,12 @@ GameObject:
   - component: {fileID: 336223498}
   - component: {fileID: 336223497}
   - component: {fileID: 336223496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (34)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &336223495
 Transform:
@@ -3028,142 +2949,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336223494}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &341657726
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 341657727}
-  - component: {fileID: 341657729}
-  - component: {fileID: 341657728}
-  m_Layer: 5
-  m_Name: Vida
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &341657727
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 341657726}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.89824, y: 0.78582, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2076794658}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 255, y: 249}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &341657728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 341657726}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'Vidas:'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4279436097
-  m_fontColor: {r: 0.254717, g: 0.013216449, b: 0.07529072, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &341657729
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 341657726}
-  m_CullTransparentMesh: 1
 --- !u!1 &351193539
 GameObject:
   m_ObjectHideFlags: 0
@@ -3176,12 +2961,12 @@ GameObject:
   - component: {fileID: 351193543}
   - component: {fileID: 351193542}
   - component: {fileID: 351193541}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (20)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &351193540
 Transform:
@@ -3392,12 +3177,12 @@ GameObject:
   - component: {fileID: 393059897}
   - component: {fileID: 393059896}
   - component: {fileID: 393059895}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (17)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &393059894
 Transform:
@@ -3729,12 +3514,12 @@ GameObject:
   - component: {fileID: 422183805}
   - component: {fileID: 422183804}
   - component: {fileID: 422183803}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (20)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &422183802
 Transform:
@@ -3834,12 +3619,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 434972715}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreiriinhas2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &434972715
 Transform:
@@ -3858,6 +3643,142 @@ Transform:
   - {fileID: 50606169}
   m_Father: {fileID: 1536096149}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &436208345
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436208346}
+  - component: {fileID: 436208348}
+  - component: {fileID: 436208347}
+  m_Layer: 5
+  m_Name: Pontos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &436208346
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436208345}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1734371650}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -176, y: 248}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &436208347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436208345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Pontos:'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4279962658
+  m_fontColor: {r: 0.13207549, g: 0.04797081, b: 0.105058305, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &436208348
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436208345}
+  m_CullTransparentMesh: 1
 --- !u!1 &474071501
 GameObject:
   m_ObjectHideFlags: 0
@@ -3978,12 +3899,12 @@ GameObject:
   - component: {fileID: 483168940}
   - component: {fileID: 483168939}
   - component: {fileID: 483168938}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (28)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &483168937
 Transform:
@@ -4083,12 +4004,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 501095488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BarreirasGrossas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &501095488
 Transform:
@@ -4229,12 +4150,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 524641821}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreiriinhas2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &524641821
 Transform:
@@ -4265,12 +4186,12 @@ GameObject:
   - component: {fileID: 529314264}
   - component: {fileID: 529314263}
   - component: {fileID: 529314262}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (28)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &529314261
 Transform:
@@ -4469,116 +4390,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537998685}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &540556160
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 540556161}
-  - component: {fileID: 540556164}
-  - component: {fileID: 540556163}
-  - component: {fileID: 540556162}
-  m_Layer: 0
-  m_Name: Fantasma3
-  m_TagString: Ghosts
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &540556161
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540556160}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5, y: -2.79, z: 7.98}
-  m_LocalScale: {x: 0.54, y: 0.54, z: 0.54}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1714228962}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &540556162
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540556160}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &540556163
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540556160}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f0bf4369fe3c0364080b29790633eac9, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &540556164
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 540556160}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &575686965
 GameObject:
   m_ObjectHideFlags: 0
@@ -4591,12 +4402,12 @@ GameObject:
   - component: {fileID: 575686969}
   - component: {fileID: 575686968}
   - component: {fileID: 575686967}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (11)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &575686966
 Transform:
@@ -4699,12 +4510,12 @@ GameObject:
   - component: {fileID: 582755335}
   - component: {fileID: 582755334}
   - component: {fileID: 582755333}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (18)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &582755332
 Transform:
@@ -5023,12 +4834,12 @@ GameObject:
   - component: {fileID: 637928984}
   - component: {fileID: 637928983}
   - component: {fileID: 637928982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (16)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &637928981
 Transform:
@@ -5131,12 +4942,12 @@ GameObject:
   - component: {fileID: 648674398}
   - component: {fileID: 648674397}
   - component: {fileID: 648674396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &648674395
 Transform:
@@ -5239,12 +5050,12 @@ GameObject:
   - component: {fileID: 654373047}
   - component: {fileID: 654373046}
   - component: {fileID: 654373045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (32)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &654373044
 Transform:
@@ -5344,12 +5155,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 670503779}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreirinhas3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &670503779
 Transform:
@@ -5704,12 +5515,12 @@ GameObject:
   - component: {fileID: 733478873}
   - component: {fileID: 733478872}
   - component: {fileID: 733478871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (12)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &733478870
 Transform:
@@ -5920,12 +5731,12 @@ GameObject:
   - component: {fileID: 752944081}
   - component: {fileID: 752944080}
   - component: {fileID: 752944079}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (26)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &752944078
 Transform:
@@ -6568,12 +6379,12 @@ GameObject:
   - component: {fileID: 795268005}
   - component: {fileID: 795268004}
   - component: {fileID: 795268003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (20)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &795268002
 Transform:
@@ -6676,12 +6487,12 @@ GameObject:
   - component: {fileID: 798321462}
   - component: {fileID: 798321461}
   - component: {fileID: 798321460}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (21)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &798321459
 Transform:
@@ -6892,12 +6703,12 @@ GameObject:
   - component: {fileID: 828542208}
   - component: {fileID: 828542207}
   - component: {fileID: 828542206}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (20)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &828542205
 Transform:
@@ -7108,12 +6919,12 @@ GameObject:
   - component: {fileID: 830967413}
   - component: {fileID: 830967412}
   - component: {fileID: 830967411}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (29)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &830967410
 Transform:
@@ -7481,12 +7292,12 @@ GameObject:
   - component: {fileID: 879808269}
   - component: {fileID: 879808268}
   - component: {fileID: 879808267}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (7)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &879808266
 Transform:
@@ -7923,12 +7734,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 927323435}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreiriinhas2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &927323435
 Transform:
@@ -7959,12 +7770,12 @@ GameObject:
   - component: {fileID: 963438757}
   - component: {fileID: 963438756}
   - component: {fileID: 963438755}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (21)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &963438754
 Transform:
@@ -8067,12 +7878,12 @@ GameObject:
   - component: {fileID: 968134348}
   - component: {fileID: 968134347}
   - component: {fileID: 968134346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (15)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &968134345
 Transform:
@@ -8499,12 +8310,12 @@ GameObject:
   - component: {fileID: 1030704390}
   - component: {fileID: 1030704389}
   - component: {fileID: 1030704388}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (4)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1030704387
 Transform:
@@ -8715,12 +8526,12 @@ GameObject:
   - component: {fileID: 1053661095}
   - component: {fileID: 1053661094}
   - component: {fileID: 1053661093}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (5)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1053661092
 Transform:
@@ -8823,12 +8634,12 @@ GameObject:
   - component: {fileID: 1068756294}
   - component: {fileID: 1068756293}
   - component: {fileID: 1068756292}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (28)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1068756291
 Transform:
@@ -9036,12 +8847,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1099581678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreirinhas3 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1099581678
 Transform:
@@ -9498,12 +9309,12 @@ GameObject:
   - component: {fileID: 1158178879}
   - component: {fileID: 1158178878}
   - component: {fileID: 1158178877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (36)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1158178876
 Transform:
@@ -9606,12 +9417,12 @@ GameObject:
   - component: {fileID: 1170436395}
   - component: {fileID: 1170436394}
   - component: {fileID: 1170436393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (25)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1170436392
 Transform:
@@ -9701,116 +9512,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170436391}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1179060268
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1179060269}
-  - component: {fileID: 1179060272}
-  - component: {fileID: 1179060271}
-  - component: {fileID: 1179060270}
-  m_Layer: 0
-  m_Name: Fantasma2
-  m_TagString: Ghosts
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1179060269
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179060268}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.77, y: -2.79, z: 7.98}
-  m_LocalScale: {x: 0.54, y: 0.54, z: 0.54}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1714228962}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &1179060270
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179060268}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1179060271
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179060268}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f0bf4369fe3c0364080b29790633eac9, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1179060272
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1179060268}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1199826081
 GameObject:
@@ -9932,12 +9633,12 @@ GameObject:
   - component: {fileID: 1253303502}
   - component: {fileID: 1253303501}
   - component: {fileID: 1253303500}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (18)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1253303499
 Transform:
@@ -10040,12 +9741,12 @@ GameObject:
   - component: {fileID: 1278017749}
   - component: {fileID: 1278017748}
   - component: {fileID: 1278017747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (18)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1278017746
 Transform:
@@ -10580,12 +10281,12 @@ GameObject:
   - component: {fileID: 1346927215}
   - component: {fileID: 1346927214}
   - component: {fileID: 1346927213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (29)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1346927212
 Transform:
@@ -10796,12 +10497,12 @@ GameObject:
   - component: {fileID: 1377075040}
   - component: {fileID: 1377075039}
   - component: {fileID: 1377075038}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (3)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1377075037
 Transform:
@@ -10904,12 +10605,12 @@ GameObject:
   - component: {fileID: 1395012445}
   - component: {fileID: 1395012444}
   - component: {fileID: 1395012443}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (23)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1395012442
 Transform:
@@ -11216,142 +10917,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410129152}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1463583438
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1463583439}
-  - component: {fileID: 1463583441}
-  - component: {fileID: 1463583440}
-  m_Layer: 5
-  m_Name: Pontos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1463583439
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463583438}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.89824, y: 0.78582, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2076794658}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -185, y: 249}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1463583440
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463583438}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: 'Pontos:'
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4279436097
-  m_fontColor: {r: 0.254717, g: 0.013216449, b: 0.07529072, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_TextWrappingMode: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 0
-  m_ActiveFontFeatures: 6e72656b
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_EmojiFallbackSupport: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &1463583441
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463583438}
-  m_CullTransparentMesh: 1
 --- !u!1 &1469674263
 GameObject:
   m_ObjectHideFlags: 0
@@ -11364,12 +10929,12 @@ GameObject:
   - component: {fileID: 1469674267}
   - component: {fileID: 1469674266}
   - component: {fileID: 1469674265}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (9)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1469674264
 Transform:
@@ -11580,12 +11145,12 @@ GameObject:
   - component: {fileID: 1491628942}
   - component: {fileID: 1491628941}
   - component: {fileID: 1491628940}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (20)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1491628939
 Transform:
@@ -11688,12 +11253,12 @@ GameObject:
   - component: {fileID: 1522137411}
   - component: {fileID: 1522137410}
   - component: {fileID: 1522137409}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (26)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1522137408
 Transform:
@@ -11793,12 +11358,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1536096149}
-  m_Layer: 0
+  - component: {fileID: 1536096150}
+  m_Layer: 6
   m_Name: Barreirinhas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1536096149
 Transform:
@@ -11828,6 +11394,38 @@ Transform:
   - {fileID: 670503779}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1536096150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536096148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedVersion: 0
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 1
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: e7cef4ac620ee214ea03499c7c979431, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1543391807
 GameObject:
   m_ObjectHideFlags: 0
@@ -11945,12 +11543,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1544833653}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreirinhas3 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1544833653
 Transform:
@@ -11981,12 +11579,12 @@ GameObject:
   - component: {fileID: 1566685119}
   - component: {fileID: 1566685118}
   - component: {fileID: 1566685117}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (6)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1566685116
 Transform:
@@ -12197,12 +11795,12 @@ GameObject:
   - component: {fileID: 1582239263}
   - component: {fileID: 1582239262}
   - component: {fileID: 1582239261}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (28)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1582239260
 Transform:
@@ -12305,12 +11903,12 @@ GameObject:
   - component: {fileID: 1601017709}
   - component: {fileID: 1601017708}
   - component: {fileID: 1601017707}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (13)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1601017706
 Transform:
@@ -12629,12 +12227,12 @@ GameObject:
   - component: {fileID: 1637560563}
   - component: {fileID: 1637560562}
   - component: {fileID: 1637560561}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (19)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1637560560
 Transform:
@@ -12842,12 +12440,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1642701521}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreiras
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1642701521
 Transform:
@@ -13125,12 +12723,12 @@ GameObject:
   - component: {fileID: 1682572991}
   - component: {fileID: 1682572990}
   - component: {fileID: 1682572989}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (19)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1682572988
 Transform:
@@ -13233,12 +12831,12 @@ GameObject:
   - component: {fileID: 1685876822}
   - component: {fileID: 1685876821}
   - component: {fileID: 1685876820}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (14)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1685876819
 Transform:
@@ -13345,7 +12943,7 @@ GameObject:
   - component: {fileID: 1689580230}
   m_Layer: 0
   m_Name: pacDiva
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13478,6 +13076,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 018f6fa342ccdd044b8b0ab9c04729bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextoPontos: {fileID: 436208347}
+  TextoVidas: {fileID: 0}
+  Pontos: 0
 --- !u!1 &1708329749
 GameObject:
   m_ObjectHideFlags: 0
@@ -13490,12 +13091,12 @@ GameObject:
   - component: {fileID: 1708329753}
   - component: {fileID: 1708329752}
   - component: {fileID: 1708329751}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (18)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1708329750
 Transform:
@@ -13611,13 +13212,11 @@ Transform:
   m_GameObject: {fileID: 1714228961}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.32409984, y: 3.7955263, z: -3.3874066}
+  m_LocalPosition: {x: 0.32409984, y: 3.544, z: -3.3874066}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1793110907}
-  - {fileID: 1179060269}
-  - {fileID: 540556161}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1720749673
@@ -13728,6 +13327,108 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1720749673}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1734371646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1734371650}
+  - component: {fileID: 1734371649}
+  - component: {fileID: 1734371648}
+  - component: {fileID: 1734371647}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1734371647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734371646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1734371648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734371646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1734371649
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734371646}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1734371650
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734371646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 436208346}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1762702445
 GameObject:
   m_ObjectHideFlags: 0
@@ -13740,12 +13441,12 @@ GameObject:
   - component: {fileID: 1762702449}
   - component: {fileID: 1762702448}
   - component: {fileID: 1762702447}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (24)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1762702446
 Transform:
@@ -13848,12 +13549,12 @@ GameObject:
   - component: {fileID: 1787716184}
   - component: {fileID: 1787716183}
   - component: {fileID: 1787716182}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (28)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1787716181
 Transform:
@@ -14052,6 +13753,85 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788471931}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1790303850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1790303853}
+  - component: {fileID: 1790303852}
+  - component: {fileID: 1790303851}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1790303851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790303850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &1790303852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790303850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1790303853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790303850}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1793110906
 GameObject:
   m_ObjectHideFlags: 0
@@ -14064,6 +13844,8 @@ GameObject:
   - component: {fileID: 1793110910}
   - component: {fileID: 1793110909}
   - component: {fileID: 1793110908}
+  - component: {fileID: 1793110911}
+  - component: {fileID: 1793110913}
   m_Layer: 0
   m_Name: Fantasma1
   m_TagString: Ghosts
@@ -14080,7 +13862,7 @@ Transform:
   m_GameObject: {fileID: 1793110906}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -2.79, z: 7.98}
+  m_LocalPosition: {x: -0.88, y: -2.79, z: 7.98}
   m_LocalScale: {x: 0.54, y: 0.54, z: 0.54}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -14162,6 +13944,46 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793110906}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1793110911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793110906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9bc6697b6ca0847bb08c08ae76c017, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PacDiva: {fileID: 1689580229}
+--- !u!54 &1793110913
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793110906}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 96
+  m_CollisionDetection: 1
 --- !u!1 &1810143045
 GameObject:
   m_ObjectHideFlags: 0
@@ -14282,12 +14104,12 @@ GameObject:
   - component: {fileID: 1828438232}
   - component: {fileID: 1828438231}
   - component: {fileID: 1828438230}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (10)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1828438229
 Transform:
@@ -14390,12 +14212,12 @@ GameObject:
   - component: {fileID: 1852986129}
   - component: {fileID: 1852986128}
   - component: {fileID: 1852986127}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (35)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1852986126
 Transform:
@@ -14714,12 +14536,12 @@ GameObject:
   - component: {fileID: 1868382115}
   - component: {fileID: 1868382114}
   - component: {fileID: 1868382113}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (28)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1868382112
 Transform:
@@ -14927,12 +14749,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1890475756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreirinhas3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1890475756
 Transform:
@@ -14963,12 +14785,12 @@ GameObject:
   - component: {fileID: 1895919026}
   - component: {fileID: 1895919025}
   - component: {fileID: 1895919024}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (20)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1895919023
 Transform:
@@ -15071,12 +14893,12 @@ GameObject:
   - component: {fileID: 1904645967}
   - component: {fileID: 1904645966}
   - component: {fileID: 1904645965}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (30)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1904645964
 Transform:
@@ -15179,12 +15001,12 @@ GameObject:
   - component: {fileID: 1914158643}
   - component: {fileID: 1914158642}
   - component: {fileID: 1914158641}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (19)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1914158640
 Transform:
@@ -15949,12 +15771,12 @@ GameObject:
   - component: {fileID: 2013262039}
   - component: {fileID: 2013262038}
   - component: {fileID: 2013262042}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &2013262038
 MeshCollider:
@@ -16184,12 +16006,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2023383139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreirinhas3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2023383139
 Transform:
@@ -16220,12 +16042,12 @@ GameObject:
   - component: {fileID: 2037855968}
   - component: {fileID: 2037855967}
   - component: {fileID: 2037855966}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (33)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2037855965
 Transform:
@@ -16328,12 +16150,12 @@ GameObject:
   - component: {fileID: 2039813523}
   - component: {fileID: 2039813522}
   - component: {fileID: 2039813521}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (24)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2039813520
 Transform:
@@ -16436,12 +16258,12 @@ GameObject:
   - component: {fileID: 2068569348}
   - component: {fileID: 2068569347}
   - component: {fileID: 2068569346}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Barreira (18)
   m_TagString: Barreiras
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2068569345
 Transform:
@@ -16532,109 +16354,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2068569344}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2076794654
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2076794658}
-  - component: {fileID: 2076794657}
-  - component: {fileID: 2076794656}
-  - component: {fileID: 2076794655}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2076794655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076794654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &2076794656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076794654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &2076794657
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076794654}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &2076794658
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2076794654}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1463583439}
-  - {fileID: 341657727}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1 &2081827812
 GameObject:
   m_ObjectHideFlags: 0
@@ -16970,8 +16689,8 @@ SceneRoots:
   - {fileID: 882923137}
   - {fileID: 1987008396}
   - {fileID: 1536096149}
-  - {fileID: 2076794658}
-  - {fileID: 95498735}
   - {fileID: 1689580229}
   - {fileID: 1714228962}
   - {fileID: 1126527084}
+  - {fileID: 1734371650}
+  - {fileID: 1790303853}
