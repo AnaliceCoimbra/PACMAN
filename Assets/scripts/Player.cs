@@ -12,7 +12,9 @@ public class Player : MonoBehaviour
     public TextMeshProUGUI TextoPontos;
     public TextMeshProUGUI TextoVidas;
     public int Pontos = 0;
-    
+    private float Horizontal;
+    private float Vertical;
+    private float velocidade = 2f;
 
     void Start()
     {
@@ -25,26 +27,29 @@ public class Player : MonoBehaviour
     void Update()
     {
         //Movimentos do pacman
-        if (Input.GetAxisRaw("Horizontal") > 0)
-        {
-            transform.Translate(0.1f, 0, 0);
-        }
-        if (Input.GetAxisRaw("Horizontal") < 0)
-        {
-            transform.Translate(-0.1f, 0, 0);
-        }
+        /* if (Input.GetAxisRaw("Horizontal") > 0)
+         {
+             transform.Translate(0.1f, 0, 0);
+         }
+         if (Input.GetAxisRaw("Horizontal") < 0)
+         {
+             transform.Translate(-0.1f, 0, 0);
+         }
 
-        if (Input.GetAxisRaw("Vertical") > 0)
-        {
-            transform.Translate(0, 0, 0.1f);
-        }
-        if (Input.GetAxisRaw("Vertical") < 0)
-        {
-            transform.Translate(0, 0, -0.1f);
-        }
+         if (Input.GetAxisRaw("Vertical") > 0)
+         {
+             transform.Translate(0, 0, 0.1f);
+         }
+         if (Input.GetAxisRaw("Vertical") < 0)
+         {
+             transform.Translate(0, 0, -0.1f);
+         }
+        */
 
-   
-
+        Horizontal = Input.GetAxisRaw("Horizontal");
+        Vertical = Input.GetAxisRaw("Vertical");
+        transform.Translate(new Vector3(Horizontal , 0, Vertical) * velocidade * Time.deltaTime);
+        
 
     }
 
@@ -78,6 +83,18 @@ public class Player : MonoBehaviour
             morrer();
         }
 
+    }
+
+    private void OnCollisionEnter(Collision bateu)
+    {
+        if (bateu.gameObject.name == "Bomba")
+        {
+            string nameObject = bateu.gameObject.name; 
+            Destroy(bateu.gameObject);
+            Debug.Log("Colidiu com a " + nameObject);
+
+
+        }
     }
 
     void atualizarPontos()
